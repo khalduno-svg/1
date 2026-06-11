@@ -7,6 +7,7 @@
 */
 
 @import './00-colors-tokens.css';
+@import './01-fonts.css';
 @import './02-base.css';
 @import './03-typography.css';
 @import url('./08-type-roles.css');
