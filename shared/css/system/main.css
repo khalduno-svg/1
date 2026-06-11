@@ -1,0 +1,17 @@
+/*
+  Shared System Entry Point
+  Load this file once on every page, then load exactly one page file from /shared/css/pages/.
+
+  Structure:
+  00 colors/tokens -> 01 fonts -> 02 base -> 03 typography -> 04 layout -> 05 components -> 06 utilities -> 07 brand overrides
+*/
+
+@import './00-colors-tokens.css';
+@import './02-base.css';
+@import './03-typography.css';
+@import url('./08-type-roles.css');
+@import './04-layout.css';
+@import './05-components.css';
+@import './06-utilities.css';
+@import './07-brand-overrides.css';
+

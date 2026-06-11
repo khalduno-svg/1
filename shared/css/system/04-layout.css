@@ -1,0 +1,6 @@
+/* System: containers, grids, global sections and layout helpers. */
+
+/* Layout layer
+   Shared layout primitives are intentionally kept in 01-base/base.css for backward compatibility.
+   Add grids/wrappers used across multiple pages here.
+*/

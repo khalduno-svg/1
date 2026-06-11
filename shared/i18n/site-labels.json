@@ -1,0 +1,17 @@
+{
+  "defaultLanguage": "ar",
+  "defaultTheme": "light",
+  "direction": { "ar": "rtl", "en": "ltr" },
+  "navigation": {
+    "home": { "ar": "الرئيسية", "en": "Home" },
+    "about": { "ar": "من أنا", "en": "About" },
+    "services": { "ar": "الخدمات", "en": "Services" },
+    "impact": { "ar": "الأثر", "en": "Impact" },
+    "midan": { "ar": "ميدان", "en": "Midan" },
+    "contact": { "ar": "تواصل", "en": "Contact" }
+  },
+  "brand": {
+    "name": { "ar": "خلدون عبيد", "en": "Khaldun Obeid" },
+    "ctaMidan": { "ar": "منصة ميدان", "en": "Midan Platform" }
+  }
+}

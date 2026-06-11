@@ -1,0 +1,6 @@
+/* System: single-purpose utility classes. */
+
+/* Utility helpers */
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease}.reveal.visible{opacity:1;transform:translateY(0)}
+html[dir="rtl"] .phone,html[lang="ar"] .phone,[dir="rtl"] a[href^="tel"],html[lang="ar"] a[href^="tel"]{direction:ltr!important;unicode-bidi:isolate!important;display:inline-flex}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}}

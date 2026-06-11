@@ -1,0 +1,42 @@
+{
+  "defaultLanguage": "ar",
+  "defaultTheme": "light",
+
+  "web3forms": {
+    "enabled": true,
+    "accessKey": "2469e827-4a89-48e1-8d84-3b5f87b42709"
+  },
+
+  "featured": {
+    "insightId": "insight-0",
+    "toolkitId": "toolkit-1",
+    "caseId": "case-0"
+  },
+
+  "mainSiteUrl": "../index.html",
+  "knowledgeHubUrl": "./index.html",
+
+  "statsLabels": {
+    "en": [
+      "Insights",
+      "Toolkits",
+      "Case Studies",
+      "Guest Posts"
+    ],
+    "ar": [
+      "مقالات",
+      "أدوات",
+      "تجارب",
+      "مشاركات ضيوف"
+    ]
+  },
+
+  "contactEmail": "khalduno@gmail.com",
+
+  "newsletterSubject": "MIDAN Newsletter Subscription",
+  "contributionSubjectPrefix": "MIDAN Contribution",
+
+  "contentLanguage": "ar",
+
+  "contentTranslationPolicy": "Core content files are authored in Arabic only. UI labels remain bilingual through translations.json; English content can be obtained through browser translation."
+}
