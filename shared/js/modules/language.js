@@ -128,6 +128,8 @@ export function initLanguage(onLanguageChange) {
   const savedLang = localStorage.getItem("kh_lang") || localStorage.getItem("ko-lang") || "ar";
   localStorage.setItem("kh_lang", savedLang); // migrate ko-lang → kh_lang
   applyLang(savedLang);
+  const header = document.querySelector(".site-header");
+  if (header) header.style.visibility = "visible";
 
   document.querySelectorAll("[data-lang-toggle]").forEach((button) => {
     button.addEventListener("click", () => {
